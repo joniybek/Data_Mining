@@ -1,0 +1,6 @@
+Program is used for forecasting network traffic data, then change detection can be performed on results
+Functionality:
+- User can create multiple controls by specifying SQL to be run
+- Program runs SQL and imports data from External source to own
+- Program uses ARIMA for building prediction
+- Program can send results with attachments to given emails if prediction and real traffic deviation exceeds treshold
